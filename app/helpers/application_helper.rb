@@ -15,4 +15,12 @@ module ApplicationHelper
   		content_tag(:p, greeting, class: "source-greeting")
     end 
   end 
+
+  def copyright_generator
+    PalmCollectiveViewTool::Renderer.copyright 'William Beach', 'All rights reserved'
+  end 
 end
+
+
+
+

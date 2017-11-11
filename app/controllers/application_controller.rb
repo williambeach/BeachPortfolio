@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
   include SetSource
   include CurrentUserConcern
   include DefaultPageContent
+
+  def set_copyright
+  	@copyright = PalmcollectiveViewTool::Renderer.copyright 'William Beach', 'All rights reserved'
+  end 
 end
