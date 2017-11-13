@@ -30,6 +30,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  overflow: hidden;
 }
 body {
   color: #fff;
@@ -161,3 +162,28 @@ body {
     width: 55rem;
   }
 }
+
+/*
+ * Base structure
+ */
+
+ #card-edit{
+  color: black;
+  text-align: left;
+  padding: 10px;
+
+ }
+
+
+#footer-container{
+  
+}
+
+#header-container{
+  margin-bottom: 120px;
+}
+
+#back-button-edit a {
+  color: black;
+}
+
